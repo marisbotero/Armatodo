@@ -1,0 +1,67 @@
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.carousel {
+    background-color: #36b1bf;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+.carousel-inner {
+    //width:90%;
+    //margin: 80px;
+    //padding: 8px;
+    //padding-right: 300px;
+}
+.iconos {
+    background-color: #D8D8D8;
+    //margin:0px;
+    //padding: 120px;
+    //text-align: center;
+    //height: 300px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border-width: 10px;
+}
+.contenedor {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px 10px 10px;
+    overflow: hidden;
+    background-color: white;
+    font-size: 15px;
+}
+.contenedor1 {
+    float: right;
+    width: 120%;
+    margin-left: 35%;
+}
+#letra {
+    text-align: 80px;
+    width: 80%;
+    margin: 10px auto;
+}
+#letra1 {
+    color: white;
+    background-color: #FE2E64;
+    padding: 80px;
+    margin-left: 90px;
+    font-size: 20px;
+    text-align: left;
+}
+//video
+.embed-container {
+    background-color: #36b1bf !important;
+    padding: 25px;
+    text-align: center;
+    //position: relative;
+    //padding-bottom: 56.25%;
+    //padding-top: 30px;
+    //height: 0;
+    //overflow: hidden;
+    //  width: 100%;
+    //height: auto;
+    //  margin-bottom: 12px;
+}

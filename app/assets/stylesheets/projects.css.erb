@@ -1,0 +1,304 @@
+@font-face {
+    font-family: "Futura";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("/fonts/futurastd-light-webfont.woff") format("woff"), url("/fonts/futurastd-light-webfont.ttf") format("truetype");
+}
+#myCarousel {
+    padding-top: 0;
+    margin-bottom: -70px;
+    background: none;
+}
+#myCarousel .banner {
+    margin: 0 auto;
+    width: 85% !important;
+}
+.carousel {
+    background-color: #36b1bf;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+.carousel-inner {
+    //width:90%;
+    //margin: 80px;
+    //padding: 8px;
+    //padding-right: 300px;
+}
+.icon-tex p {
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.iconos {
+    background-color: #D8D8D8;
+    //margin:0px;
+    //padding: 120px;
+    //text-align: center;
+    //height: 300px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border-width: 10px;
+}
+.icon-logo img {
+    width: 94%;
+}
+.linea {
+    border-right: 0.5px solid #b7b7b7;
+}
+.linea2 {
+    border-right: 0.5px solid #955b00;
+}
+.boton-linea {
+    padding: 11px;
+    border: 0.5px solid #9c9c9c;
+    width: 260px;
+    float: right;
+}
+.boton-linea2 {
+    padding: 11px;
+    background: #f2f3f9;
+    width: 100px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.base-imagen {
+    padding: 60px;
+    background: linear-gradient( rgba(181, 181, 181, 0.95), rgba(226, 225, 225, 0.84)), url(<%= asset_path 'comerciales.jpg' %>) no-repeat fixed;
+}
+.base-imagen .contenedor {
+    margin: auto;
+}
+.boton-linea a, .boton-linea a:hover, .boton-linea a:active, .boton-linea2 a, .boton-linea2 a:hover, .boton-linea2 a:active {
+    text-decoration: none;
+    color: #9c9c9c;
+}
+.boton-linea img {
+    margin-left: 10px;
+    width: 12%;
+}
+.text-just {
+    text-align: justify;
+}
+.padding-none {
+    padding: 0px !important;
+}
+.imagen img {
+    width: 100%;
+}
+.contenedor {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px 10px 10px;
+    overflow: hidden;
+    background-color: white;
+    font-size: 15px;
+}
+.contenedor1 {
+    float: right;
+    width: 120%;
+    margin-left: 35%;
+}
+.contenedor-iconos {
+    margin-top: 75px;
+}
+#letra {
+    text-align: 80px;
+    width: 80%;
+    margin: 10px auto;
+}
+#letra1 {
+    margin: auto;
+    max-width: 848px;
+    padding: 10%;
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-align: justify;
+}
+.fondo {
+    background-image: url(<%= asset_path 'Merchandising-de-gestion.jpg' %>);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    background-position: right bottom;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+}
+.fondo2 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    color: white;
+    background-color: #FE2E64;
+    height: 100%;
+}
+.base {
+    margin: 0 !important;
+    width: 100%;
+    position: relative;
+    height: 360px;
+}
+
+/*video*/
+
+.text-video {
+    width: 55%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.embed-container {
+    background-color: #36b1bf !important;
+    padding: 25px;
+    text-align: center;
+    //position: relative;
+    //padding-bottom: 56.25%;
+    //padding-top: 30px;
+    //height: 0;
+    //overflow: hidden;
+    //  width: 100%;
+    //height: auto;
+    //  margin-bottom: 12px;
+}
+.iframe {
+    border: none;
+}
+.footer {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+    background: #ffa600
+}
+.footer img {
+    width: 200px;
+    height: 60px;
+    margin: auto;
+}
+.facebook2 {
+    width: 20px;
+    height: 20px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1380px) {
+    #letra1 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1075px) {
+    .base {
+        height: 363px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .text-right {
+        text-align: center !important;
+        padding: 5px !important;
+    }
+    .facebook2, .instagram, .twitter, .youtube {
+        width: 40px;
+        height: 40px;
+    }
+    h1 {
+        font-size: 15px !important;
+    }
+    h2 {
+        font-size: 12px !important;
+    }
+    .carousel {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .linea, .linea2 {
+        border-right: none;
+    }
+    .icon-logo img {
+        width: 50%;
+    }
+    .none-movil {
+        display: none;
+    }
+    .icon-tex p {
+        width: 52%;
+        margin-bottom: 10px;
+    }
+    .visual {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #myCarousel .banner {
+        width: 90% !important;
+    }
+    #letra1 {
+        font-size: 14px;
+    }
+    .base-imagen {
+        width: 100%;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px 10px 10px;
+        overflow: hidden;
+        background-color: white;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .logo-footer {
+        width: 70px;
+        height: 15px;
+    }
+    .footer {
+        text-align: center;
+    }
+    h1 {
+        font-size: 12px !important;
+    }
+    h2 {
+        font-size: 10px !important;
+    }
+    #letra {
+        font-size: 12px;
+    }
+    #letra1 {
+        font-size: 12px;
+    }
+    .footertext {
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .text-right {
+        text-align: center;
+        position: relative;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 0px
+    }
+    .base-imagen {
+        background-image: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer img {
+        width: 150px;
+        height: auto;
+    }
+    .footertext {
+        padding-left: 0;
+        margin-left: 10px;
+    }
+    .text-right {
+        padding-left: 0px;
+    }
+    .linea {
+        border-right: 0px;
+    }
+}

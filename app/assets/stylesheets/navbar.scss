@@ -1,0 +1,203 @@
+.logo {
+    width: 251px;
+    height: 79px;
+}
+.navbar {
+    background-color: #36b1bf;
+    margin-bottom: 0 !important;
+    min-height: 100px !important;
+}
+.navbar .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+.navbar-toggle {
+    top: 15px;
+}
+.nav > li > a {
+    color: #ffffff;
+    font-size: 15px;
+    /* Aproximación debida a la sustitución de la fuente */
+    line-height: 27.303px;
+    /* Aproximación debida a la sustitución de la fuente */
+    text-align: center;
+    padding: 10px 10px 0 0 !important;
+    background-color: transparent !important;
+}
+.navbar-brand {
+    height: 100px;
+    margin-left: 190px !important;
+}
+.navbar-right {
+    padding-top: 30px;
+    margin-right: 230px !important;
+}
+.rect::before {
+    content: '';
+    display: block;
+    height: 40px;
+    left: -1px;
+    position: absolute;
+    width: 2px;
+    background-color: #ffffff !important;
+}
+.facebook {
+    width: 10px;
+    height: 20px;
+}
+.instagram {
+    width: 21px;
+    height: 20px;
+}
+.twitter {
+    width: 22px;
+    height: 18px;
+}
+.youtube {
+    width: 43px;
+    height: 18px;
+}
+.bmenu {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 39px;
+    padding-left: 10px;
+    width: 25;
+    height: 17;
+}
+.bmenu:hover {
+    cursor: pointer;
+}
+.menu {
+    height: 94px;
+    width: 500px;
+    float: left !important;
+    background-color: #e9f1df;
+    position: absolute;
+    z-index: 9999;
+    margin-top: 0;
+    right: 220px;
+    top: 80px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 500ms linear, visibility 0s linear 500ms;
+}
+.menu--show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 500ms linear, visibility 0s linear;
+}
+.menu > ul {
+    margin: 27px 45px !important;
+}
+.menu > .nav > li > a {
+    color: #01579b;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 10px !important;
+    padding-bottom: 37px !important;
+}
+.rectB:before {
+    content: '';
+    display: block;
+    height: 20px;
+    left: -1px;
+    position: absolute;
+    width: 2px;
+    background-color: #01579b;
+    top: 10px;
+}
+/*-- link-effect --*/
+/* Link Effect: borders slight translate */
+.link-effect a::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 9px;
+    background: #f2385a;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.link-effect a::after {
+    bottom: 0;
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    transform: translateY(5px);
+}
+.link-effect a:focus::after,
+.link-effect a:hover::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+/*-- /link-effect --*/
+@media (max-width: 980px) {
+    .navbar-brand {
+        margin-left: 60px !important;
+    }
+    .navbar-right {
+        padding-top: 30px;
+        margin-right: 100px !important;
+    }
+}
+@media (max-width: 640px) {
+    .navbar {
+        min-height: 50px !important;
+    }
+    .navbar-brand {
+        margin-left: 0 !important;
+        height: 80px !important;
+        padding: 0 !important;
+    }
+    .navbar-right {
+        padding-top: 30px;
+        margin-right: 0 !important;
+    }
+    .menu {
+        height: 100%;
+        width: 100%;
+        right: 0;
+        top: 0;
+        padding-bottom: 30px;
+        background-color: transparent;
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+    }
+    .rectB:before {
+        visibility: hidden;
+    }
+    .menu > ul {
+        margin: 0 !important;
+    }
+    .menu > .nav > li > a {
+        color: #ffffff;
+        font-size: 15px;
+        /* Aproximación debida a la sustitución de la fuente */
+        line-height: 27.303px;
+        /* Aproximación debida a la sustitución de la fuente */
+        text-align: center;
+        padding: 10px 10px 0 0 !important;
+    }
+    .bmenu {
+        display: none !important;
+    }
+    .link-effect a::after {
+        display: none;
+    }
+    .redes {
+        float: left;
+    }
+    .facebook {
+        margin-left: 90px;
+    }
+}
